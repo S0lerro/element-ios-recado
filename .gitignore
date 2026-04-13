@@ -1,0 +1,24 @@
+# Xcode
+*.xcuserstate
+*.xcuserdata
+DerivedData/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Generated files
+Riot/Generated/
+
+# OS X
+.DS_Store
