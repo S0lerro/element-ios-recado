@@ -110,7 +110,6 @@ Please see LICENSE in the repository root for full details.
 {
     id<Theme> theme = ThemeService.shared.theme;
     [theme applyStyleOnNavigationBar:self.navigationController.navigationBar];
-
     [theme applyStyleOnTabBar:self.tabBar];
     
     self.view.backgroundColor = theme.backgroundColor;

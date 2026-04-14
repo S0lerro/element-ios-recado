@@ -497,7 +497,8 @@ class AllChatsViewController: HomeViewController {
     }
     
     private func updateRightNavigationItem(with menu: UIMenu) {
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "ellipsis.circle"), menu: menu)
+        let image = UIImage(systemName: "ellipsis.circle")?.withTintColor(theme.colors.accent, renderingMode: .alwaysOriginal)
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: image, menu: menu)
     }
     
     private lazy var spacesButton: BadgedBarButtonItem = {
