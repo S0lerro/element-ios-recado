@@ -571,6 +571,8 @@
 		2360468FF873A66411E11E6D /* InactiveUserSessionLastActivityFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC1BDFBFA0C5466D1F79B2E /* InactiveUserSessionLastActivityFormatter.swift */; };
 		2361C8848C83CCF3315F9BA2 /* MockUserSessionNameScreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B74E733DDB720ABF3871688 /* MockUserSessionNameScreenState.swift */; };
 		2368F89F25363DCB66BA1C24 /* WidgetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AADE9F52457024CCA31742 /* WidgetManager.m */; };
+		236E4F7D2F990CE00092075D /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236E4F7C2F990CD70092075D /* TranslationService.swift */; };
+		236E4F7F2F990D190092075D /* MessageTranslationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236E4F7E2F990D080092075D /* MessageTranslationStore.swift */; };
 		2374C6CD2F8BB29D007D1C43 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2374C6CC2F8BB299007D1C43 /* Strings.swift */; };
 		2374C6CE2F8BB29D007D1C43 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2374C6CC2F8BB299007D1C43 /* Strings.swift */; };
 		2374C6CF2F8BB29D007D1C43 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2374C6CC2F8BB299007D1C43 /* Strings.swift */; };
@@ -4787,6 +4789,8 @@
 		2349240C0E8BF0E18CD329E5 /* AuthenticationSoftLogoutViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSoftLogoutViewModelTests.swift; sourceTree = "<group>"; };
 		234C315BE73EB9B792D96E1A /* ChooseAvatarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseAvatarTableViewCell.xib; sourceTree = "<group>"; };
 		235C08DF004DF8BCFB92F711 /* AuthenticationQRLoginScanScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationQRLoginScanScreen.swift; sourceTree = "<group>"; };
+		236E4F7C2F990CD70092075D /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
+		236E4F7E2F990D080092075D /* MessageTranslationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTranslationStore.swift; sourceTree = "<group>"; };
 		2374C6CC2F8BB299007D1C43 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		2374C6D12F8BB2AB007D1C43 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		237597FEC57BD5EC5A5A02D9 /* CircleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleButton.h; sourceTree = "<group>"; };
@@ -14082,6 +14086,8 @@
 		92D0F976D64CC8F3CA61A9E3 /* Room */ = {
 			isa = PBXGroup;
 			children = (
+				236E4F7E2F990D080092075D /* MessageTranslationStore.swift */,
+				236E4F7C2F990CD70092075D /* TranslationService.swift */,
 				0E7FC6CFE3E755404B577491 /* MXKRoomViewController.h */,
 				8F58FA72A72230F359A3E2CC /* MXKRoomViewController.m */,
 				4C45E4F27CC53D7E4748B729 /* MXKRoomViewController.xib */,
@@ -22850,6 +22856,7 @@
 				E5250ABBD766FE803D1328EE /* RoomInfoListViewState.swift in Sources */,
 				FD0E7F067D0886BD053B2682 /* RoomInputToolbarTextView.swift in Sources */,
 				6B232963C33B00BAA0990F63 /* RoomInputToolbarView.m in Sources */,
+				236E4F7F2F990D190092075D /* MessageTranslationStore.swift in Sources */,
 				EE32659D708B00DF779FB364 /* RoomInputToolbarView.swift in Sources */,
 				F5874A533CFF4FD1EFBE5341 /* RoomInviteViewController.swift in Sources */,
 				6485773777AF4517E03B6E3F /* RoomInvitesViewController.swift in Sources */,
@@ -23503,6 +23510,7 @@
 				B7730D70A2E5829029087A47 /* UntranslatedStrings.swift in Sources */,
 				32E117F9C27F0FA14EEF55E4 /* UserAgentParser.swift in Sources */,
 				D6947A85FCE3E51B3C8A1D0C /* UserAnnotationCalloutContentView.swift in Sources */,
+				236E4F7D2F990CE00092075D /* TranslationService.swift in Sources */,
 				A982FE97806BF0A1061906F5 /* UserAnnotationCalloutView.swift in Sources */,
 				271C2E466F0695F8F7E06A94 /* UserAvatarView.swift in Sources */,
 				D517AC2D02FB0AE1C0CD570C /* UserAvatarViewData.swift in Sources */,
